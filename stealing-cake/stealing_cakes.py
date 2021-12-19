@@ -29,7 +29,7 @@ def stealing_cakes(cakes_tuple, capacity):
     return total_price  # O(n)
 
 def dp_stealing_cakes(cakes, capacity):
-    ''' Using dynamic programming (bai toan balo loai 1)
+    ''' Using dynamic programming (bai toan balo loai 2) 
     1. at weight = 1, find max_price_at_capacity1 by traversing all cake weighing 1
     2. at weight = 2, fidn max_price_at_capacity2 by traversing all cake weighing 1 or 2
         2.1 if weight == 2:
